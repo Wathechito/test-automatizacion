@@ -2,7 +2,7 @@ name: test
 
 on:
   schedule:
-    - cron: '0 * * * *' # Esto se ejecuta cada hora en el minuto 0 en UTC
+    - cron: '*/5 * * * *' # Esto se ejecuta cada hora en el minuto 0 en UTC
 
 jobs:
   build:
