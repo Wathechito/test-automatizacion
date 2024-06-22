@@ -1,4 +1,4 @@
 
 
 
-print("Condigo ejecutado con exito.")
+print("Código ejecutado con éxito.")
