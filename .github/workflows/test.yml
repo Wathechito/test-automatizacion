@@ -1,0 +1,21 @@
+name: test
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Esto se ejecuta cada hora en el minuto 0 en UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # tipo de maquina
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5  # Configurar el entorno de Python
+      with:
+        python-version: '3.11' 
+
+    - name: Run a script
+      run: python ./app.py
