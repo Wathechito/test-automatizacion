@@ -10,6 +10,8 @@ def areaTriangulo(b,a):
 
 print(areaTriangulo(2,6))
 
+# Comentario new
+
 
 
 
