@@ -12,7 +12,10 @@ print(areaTriangulo(2,6))
 
 # Comentario new
 
+def areaCuadrado(a):
+    area = a**2
+    return area
 
+print(areaCuadrado(5))
 
-
-
+# Esto es un test
