@@ -2,7 +2,7 @@ name: test
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Esto se ejecuta cada día a las 7 am en Perú.
+    - cron: '0 12 * * *' # Esto se ejecuta cada día a las 7 am en Perú.
 
 jobs:
   build:
